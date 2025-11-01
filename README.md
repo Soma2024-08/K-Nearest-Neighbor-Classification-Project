@@ -3,7 +3,7 @@ A machine learning project that illustrates the use of the K-Nearest Neighbors a
 # **Introduction**
 The K-Nearest Neighbors (KNN) algorithm is a simple yet powerful supervised machine learning technique used for both classification and regression problems. In this project, we focus on classification. The algorithm works by storing all the available data points and classifying new data points based on a similarity measure—most commonly distance functions. When a new example is introduced, KNN finds the K nearest data points from the training set and assigns the most common label among them as the predicted class.
 <p align="center">
-  <img src="0_ItVKiyx2F3ZU8zV5.png" width="500"/>
+  <img src="images/0_ItVKiyx2F3ZU8zV5.png" width="500"/>
 </p>
 The figure below illustrate the yellow square represents a new sample that needs to be classified, and the nearby red stars and green triangles represent two different classes. The class of the new point is determined based on the majority of its nearest neighbors.
 ---
@@ -35,7 +35,7 @@ From the plot, it can be observed that the **Euclidean**, **Manhattan**, and **M
 This highlights the **sensitivity of KNN** to the choice of distance metric.
 Below is the summary of the best K value and accuracy obtained for each distance metric used during experimentation:
 <p align="center">
-  <img src="output1.png" width="500"/>
+  <img src="images/output1.png" width="500"/>
 </p>
 
 The **Minkowski** and **Manhattan** distance metrics achieved the highest accuracy of **97.37%**,  
@@ -50,7 +50,7 @@ To further analyze the model’s performance, a **confusion matrix** was generat
 
 The confusion matrix below shows the count of correctly and incorrectly classified samples.
 <p align="center">
-  <img src="output2.png" width="500"/>
+  <img src="images/output2.png" width="500"/>
 </p>
 ---
 
@@ -82,7 +82,7 @@ while the scatter points represent training and testing data.
 The smooth transitions across boundaries demonstrate the **non-parametric nature of KNN**.
 
 <p align="center">
-  <img src="output3.png" width="500"/>
+  <img src="images/output3.png" width="500"/>
 </p>
 As we can see, the model performs exceptionally well, correctly classifying the majority of samples.  
 Only a few misclassifications occurred in one of the classes, indicating a **strong balance between precision and recall**
