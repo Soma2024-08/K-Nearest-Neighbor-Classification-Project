@@ -6,14 +6,14 @@ The K-Nearest Neighbors (KNN) algorithm is a simple yet powerful supervised mach
   <img src="images/0_ItVKiyx2F3ZU8zV5.png" width="500"/>
 </p>
 The figure below illustrate the yellow square represents a new sample that needs to be classified, and the nearby red stars and green triangles represent two different classes. The class of the new point is determined based on the majority of its nearest neighbors.
----
+
 ## This implementation provides:
 -Support for multiple distance metrics: Euclidean, Manhattan, Minkowski, Cosine, and Hamming.
 -Automatic determination of the best K value based on validation accuracy.
 -Visualization of accuracy vs K for each distance metric.
 -Confusion matrix and classification report for detailed evaluation.
 -Decision boundary plots to visualize model predictions in 2D (via PCA).
-----
+
 ## ✨ Features of the Project
 
 This implementation provides:
@@ -24,7 +24,7 @@ This implementation provides:
 - **Confusion matrix and classification report** for detailed evaluation  
 - **Decision boundary plots** to visualize model predictions in 2D (via PCA)
 
----
+
 
 ## 📈 Performance Evaluation
 
@@ -41,7 +41,7 @@ Below is the summary of the best K value and accuracy obtained for each distance
 The **Minkowski** and **Manhattan** distance metrics achieved the highest accuracy of **97.37%**,  
 demonstrating their effectiveness for this dataset.
 
----
+
 
 ## 🧾 Confusion Matrix and Model Results
 
@@ -52,7 +52,7 @@ The confusion matrix below shows the count of correctly and incorrectly classifi
 <p align="center">
   <img src="images/output2.png" width="500"/>
 </p>
----
+
 
 ## 🧮 Classification Report
 
@@ -70,7 +70,7 @@ It reflects how well the model distinguishes between the two classes.
 These results show that the model achieves **strong performance across both classes**,  
 maintaining a good trade-off between precision and recall.
 
----
+
 
 ##  Decision Boundary Visualization
 
