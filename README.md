@@ -49,9 +49,6 @@ To further analyze the model’s performance, a **confusion matrix** was generat
 **Minkowski distance with K = 3**.
 
 The confusion matrix below shows the count of correctly and incorrectly classified samples.
-
-As we can see, the model performs exceptionally well, correctly classifying the majority of samples.  
-Only a few misclassifications occurred in one of the classes, indicating a **strong balance between precision and recall**.
 <p align="center">
   <img src="output2.png" width="500"/>
 </p>
@@ -87,5 +84,7 @@ The smooth transitions across boundaries demonstrate the **non-parametric nature
 <p align="center">
   <img src="output3.png" width="500"/>
 </p>
+As we can see, the model performs exceptionally well, correctly classifying the majority of samples.  
+Only a few misclassifications occurred in one of the classes, indicating a **strong balance between precision and recall**
 ---
 
