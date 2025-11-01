@@ -14,7 +14,7 @@ The figure below illustrate the yellow square represents a new sample that needs
 -Confusion matrix and classification report for detailed evaluation.
 -Decision boundary plots to visualize model predictions in 2D (via PCA).
 
-## ✨ Features of the Project
+## Features of the Project
 
 This implementation provides:
 
@@ -26,7 +26,7 @@ This implementation provides:
 
 
 
-## 📈 Performance Evaluation
+## Performance Evaluation
 
 The model was evaluated by varying both **K values** and **distance metrics**.  
 The following plot shows how validation accuracy changes with different values of K for each metric.
@@ -43,7 +43,7 @@ demonstrating their effectiveness for this dataset.
 
 
 
-## 🧾 Confusion Matrix and Model Results
+## Confusion Matrix and Model Results
 
 To further analyze the model’s performance, a **confusion matrix** was generated for the best-performing configuration —  
 **Minkowski distance with K = 3**.
@@ -54,7 +54,7 @@ The confusion matrix below shows the count of correctly and incorrectly classifi
 </p>
 
 
-## 🧮 Classification Report
+## Classification Report
 
 The classification report below provides detailed metrics — **precision**, **recall**, and **F1-score** — for each class.  
 It reflects how well the model distinguishes between the two classes.
